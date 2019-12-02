@@ -24,6 +24,6 @@ And the stm32 i2c is also connect to the Raspberry Pi:
   Run the below commands if your system has not set up for i2c.
   
     sudo apt-get update
-    sudo apt-get install python-smbus python3-smbus python-dev python3-dev i2c-tools
+    sudo apt-get install python-smbus python-smbus python-dev python-dev i2c-tools
     
-    pip install smbus
+    pip install smbus2
